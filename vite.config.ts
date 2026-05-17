@@ -6,7 +6,6 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-        Base: '/Restorephoto/',
       server: {
         port: 3000,
         host: '0.0.0.0',
